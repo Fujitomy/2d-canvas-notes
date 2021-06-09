@@ -13,7 +13,7 @@ class Canvas extends React.Component {
     this.query = '';
   }
   render() {
-    const {accessRightVisible} = this.state;
+    const { accessRightVisible } = this.state;
     return (
       <aside>
         <canvas id='canvas2d' style={{width:'300px',height: '400px'}}>111</canvas>
