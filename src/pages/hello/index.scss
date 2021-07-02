@@ -15,17 +15,29 @@ code {
 .hello-page {
   width: 100vw;
   height: 100vh;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-}
-.page-title {
-  color: blue;
-}
-.page-btn {
-  padding: 6px 0;
-  color: #fff;
-}
-.page-btn  a {
-  color: #fff;
+  // display:flex;
+  // align-items: center;
+  // justify-content: center;
+
+  .page-title {
+    color: #000;
+    line-height: 60px;
+
+  }
+  .page-btn {
+    padding: 6px 0;
+    color: #fff;
+  }
+  .page-btn  a {
+    color: #fff;
+  }
+  .jump-href {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    padding: 12px 12px;
+    border-top: 1px dashed blue;
+    color: #000;
+    font-size: 14px;
+  }
 }

@@ -1,9 +1,13 @@
 
- html {
+
+html {
   font-family: "Microsoft Yahei", Arial, Tahoma, sans-serif;
   font-size: calc(100vw/750*100) !important;
   /* 默认分成100分，则1rem等于100vw/100  鉴于不同屏幕实际宽高于设计稿不同，按照换算 */
 }
+
+
+
 .App {
   text-align: center;
 }
